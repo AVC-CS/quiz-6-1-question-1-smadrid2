@@ -35,10 +35,10 @@ int getNextPrime(int begin)
     while (true)
     {
         if (isPrime(n))
-            return;
+            return n;
         n++;
-    
     }
+
 }
 
 int getPrevPrime(int end)
@@ -48,7 +48,7 @@ int getPrevPrime(int end)
     {
         if (isPrime(n))
             return n;
-            n==;
+
 
     }
     return 2;
