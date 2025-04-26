@@ -48,7 +48,7 @@ int getPrevPrime(int end)
     {
         if (isPrime(n))
             return n;
-
+        n = 2;
 
     }
     return 2;
